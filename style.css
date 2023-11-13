@@ -1,0 +1,46 @@
+h1{
+    align-items: center;
+    position: relative;
+    height: 650px;
+    display: flex;  
+    justify-content: center;
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/7358706/1820/1213/m1/fpnw/wm1/r4ejcddlzrzpyfjdouhnnkfgfjrjuy4xyhhcnkuxt3m6rh05n4fnjqlf92qwdpkn-.jpg?1574658759&s=bdcb7212acfc1980a7cfee59581e102a");
+    background-size: 1520px 649px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    cursor: pointer;
+    font-weight:bolder;
+}
+p{
+    font-weight:bolder;
+    position:relative;
+    left:100px;
+}
+h2:hover{
+    text-decoration: underline;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width:300px;
+    height: 200px;
+}
+.imgs{
+    margin: 40px;
+}
+.img{
+    display: block;
+    float: left;
+    box-shadow: 15px 15px 15px #0e0e0e;
+    border:5px solid rgb(55, 54, 54);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.img:hover{
+    opacity:.7;
+}
